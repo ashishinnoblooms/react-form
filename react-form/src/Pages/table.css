@@ -1,0 +1,44 @@
+
+table {
+    font-family: "Poppins";
+    font-size: .9rem;
+    width: 80%;
+    max-width: 850px;
+    border-radius: 10px;
+}
+
+table,th,td {
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid green;
+    border-collapse: separate;
+}
+
+td:last-child, th:last-child {
+    border-radius:  0 8px 8px 0;
+}
+td:first-child, th:first-child{
+    border-radius:  8px 0 0 8px;
+}
+  
+.address {
+    max-width: 120px;
+    height: auto;
+    overflow: auto;
+}
+
+th,td {
+    padding: 2px 6px;
+}
+
+button {
+    margin-left: 4px;
+    padding: 3px 8px;
+}
+
+.no-data {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
