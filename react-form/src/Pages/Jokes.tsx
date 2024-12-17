@@ -4,7 +4,7 @@ import "./jokes.css"
 
 export default function Jokes() {
 
-    const [currentJoke, setCurrentJoke] = useState("");
+    const [currentJoke, setCurrentJoke] = useState("Welcome Back ");
 
     function handleClick() {
         let num = Math.floor(Math.random() * data.length); 
@@ -13,8 +13,8 @@ export default function Jokes() {
 
     return (
         <div className="container">
-            <button onClick={handleClick}>Click to Generate Joke</button>
-            <p>{currentJoke}</p>
+            <button className="button" onClick={handleClick}>Click to Generate Joke</button>
+            <p className="joke">{currentJoke}</p>
         </div>
     );
 }

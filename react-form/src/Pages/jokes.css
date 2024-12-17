@@ -6,20 +6,31 @@
     align-items: center;
 }
 
-button {
+.button {
+    font-family: "Poppins";
+    font-size: 1.2rem;
     width: fit-content;
-    height: 30px;
     margin-bottom: 20px;
+    border: 2px dashed black ;
+    padding: 3px 16px;
 }
-p::before {
-    content: "\261D";
-    font-size: 2rem;
+.button:hover {
+    cursor: pointer;
 }
-p::after {
-    content: "\275E";
-    font-size: 2rem;
+.joke::before {
+    content:"\275d"" ";
+    font-size: 1.7rem;
 }
-p{
+.joke::after {
+    content: " ""\275E";
+    font-size: 1.7rem;
+}
+.joke{
+    padding: 50px 80px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background-color: rgba(127, 255, 212, 0.5);
+    line-height: 1.4;
     font-size: 1.5rem;
     font-family: "Poppins";
     text-align: center;
