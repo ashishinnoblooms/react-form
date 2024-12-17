@@ -1,0 +1,35 @@
+.container {
+    margin: 20px auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: fit-content;
+    height: 30px;
+    margin-bottom: 20px;
+}
+p::before {
+    content: "\261D";
+    font-size: 2rem;
+}
+p::after {
+    content: "\275E";
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+/* 
+❛	275B	HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+❜	275C	HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT
+❝	275D	HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
+❞	275E	HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT
+❟	275F	HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT
+❠	2760 
+*/

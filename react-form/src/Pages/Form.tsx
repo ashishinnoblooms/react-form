@@ -5,7 +5,7 @@ import "./table.css"
 
 export default function Form() {
 
-    const [upIdx, setUpIdx] = useState()
+    // const [upIdx, setUpIdx] = useState()
     const [isEditing, setIsEditing]= useState(false)
 
     const [dataArray, setDataArray] = useState(()=>{
@@ -34,7 +34,7 @@ export default function Form() {
         }));
     };
 
-    let updateIndex = upIdx
+    // let updateIndex = upIdx
 
     function handleSubmit(e: { preventDefault: () => void }) {
         e.preventDefault();
